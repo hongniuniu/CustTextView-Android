@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TEST_TITLE = "自定义可滑动变高的view";
+    private static final String TEST_TITLE = "自定义可滑动变高的View";
     public static final String shortStr = "我是中国人,我是中国人的的阿大发撒发生中国人";
     public static final String midStr = "我是中国人,我是中国人的的阿大发撒发生;我是中国人,我是中国人的的阿大发撒发生我是中国人,我是中国人的的阿大发撒发生;我是中国人,我是中国人的的阿大发撒发生我是中国人";
     public static final String longStr = "我是中国人,我是中国人的的阿大发撒发生;我是中国人,我是中国人的的阿大发撒发生我是中国人,我是中国人的的阿大发撒发生;我是中国人,我是中国人的的阿大发撒发生我是中国人" +
