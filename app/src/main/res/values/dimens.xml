@@ -2,4 +2,12 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tj_pos_start">20sp</dimen>
+    <dimen name="tj_pos_total">15sp</dimen>
+    <dimen name="tj_title_font">16sp</dimen>
+    <dimen name="tj_title_desc_font">13sp</dimen>
+    <dimen name="tj_desc_font">12sp</dimen>
+    <dimen name="tj_desc_hgt">40dp</dimen>
+    <dimen name="tj_desc_padding">4dp</dimen>
 </resources>

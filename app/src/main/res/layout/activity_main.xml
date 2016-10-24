@@ -1,17 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.faith.ctv.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/id_testHgtTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="点击切换文本内容"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+
+    <com.faith.ctv.PicDescView
+        android:id="@+id/id_descLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#7f921919"
+        android:paddingBottom="16dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:paddingTop="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- 标题-->
+                <TextView
+                    android:id="@+id/id_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/tj_title_font"
+                    tools:text="如果图片有标题" />
+
+                <!-- 描述-->
+                <TextView
+                    android:id="@+id/id_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_title"
+                    android:layout_marginTop="7dp"
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:visibility="visible"
+                    tools:text="我是中国人的的阿大我是中国人的的阿大发撒发生我是中国人" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </com.faith.ctv.PicDescView>
+</FrameLayout>
