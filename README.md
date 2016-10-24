@@ -9,3 +9,4 @@
 <img src="screenshots/guide2.png" width="25%" />
 <img src="screenshots/guide3.png" width="25%" />
 <img src="screenshots/guide4.png" width="25%" />
+<img src="screenshots/guide5.png" width="25%" />
