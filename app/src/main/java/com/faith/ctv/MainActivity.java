@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {//aabb
+public class MainActivity extends AppCompatActivity {//aabbcc
 
     private static final String TEST_TITLE = "自定义可滑动变高的View";
     public static final String shortStr = "我是中国人,我是中国人的的阿大发撒发生中国人";
